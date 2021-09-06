@@ -20,7 +20,6 @@ resource "azurerm_storage_account" "storage" {
   tags = {
     Environment = var.environment
     BuildBy     = var.tag_buildby
-    BuildTicket = var.tag_buildticket
     BuildDate   = var.tag_builddate
   }
 }
