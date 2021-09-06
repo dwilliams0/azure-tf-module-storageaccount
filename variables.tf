@@ -4,13 +4,8 @@ variable "environment" {
 }
 
 variable "tag_buildby" {
-  description = "Racker that built the resource."
-  default     = "Dan Williams"
-}
-
-variable "tag_buildticket" {
-  description = "Build ticket number."
-  default     = "12354-232123"
+  description = "Who built the resource."
+  default     = ""
 }
 
 variable "tag_builddate" {
